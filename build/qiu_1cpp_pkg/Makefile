@@ -168,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named writer_node
+
+# Build rule for target.
+writer_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 writer_node
+.PHONY : writer_node
+
+# fast build rule for target.
+writer_node/fast:
+	$(MAKE) -f CMakeFiles/writer_node.dir/build.make CMakeFiles/writer_node.dir/build
+.PHONY : writer_node/fast
+
+#=============================================================================
 # Target rules for targets named ros2_cpp_node
 
 # Build rule for target.
@@ -273,6 +286,33 @@ src/person.cpp.s:
 	$(MAKE) -f CMakeFiles/person_node.dir/build.make CMakeFiles/person_node.dir/src/person.cpp.s
 .PHONY : src/person.cpp.s
 
+src/writer.o: src/writer.cpp.o
+
+.PHONY : src/writer.o
+
+# target to build an object file
+src/writer.cpp.o:
+	$(MAKE) -f CMakeFiles/writer_node.dir/build.make CMakeFiles/writer_node.dir/src/writer.cpp.o
+.PHONY : src/writer.cpp.o
+
+src/writer.i: src/writer.cpp.i
+
+.PHONY : src/writer.i
+
+# target to preprocess a source file
+src/writer.cpp.i:
+	$(MAKE) -f CMakeFiles/writer_node.dir/build.make CMakeFiles/writer_node.dir/src/writer.cpp.i
+.PHONY : src/writer.cpp.i
+
+src/writer.s: src/writer.cpp.s
+
+.PHONY : src/writer.s
+
+# target to generate assembly for a file
+src/writer.cpp.s:
+	$(MAKE) -f CMakeFiles/writer_node.dir/build.make CMakeFiles/writer_node.dir/src/writer.cpp.s
+.PHONY : src/writer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -284,6 +324,7 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... writer_node"
 	@echo "... ros2_cpp_node"
 	@echo "... edit_cache"
 	@echo "... test"
@@ -296,6 +337,9 @@ help:
 	@echo "... src/person.o"
 	@echo "... src/person.i"
 	@echo "... src/person.s"
+	@echo "... src/writer.o"
+	@echo "... src/writer.i"
+	@echo "... src/writer.s"
 .PHONY : help
 
 

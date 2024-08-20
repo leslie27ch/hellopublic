@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1c
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/writer_node.dir/all
 all: CMakeFiles/ros2_cpp_node.dir/all
 all: CMakeFiles/person_node.dir/all
 
@@ -64,12 +65,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/writer_node.dir/clean
 clean: CMakeFiles/ros2_cpp_node.dir/clean
 clean: CMakeFiles/person_node.dir/clean
 clean: CMakeFiles/qiu_1cpp_pkg_uninstall.dir/clean
 clean: CMakeFiles/uninstall.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/writer_node.dir
+
+# All Build rule for target.
+CMakeFiles/writer_node.dir/all:
+	$(MAKE) -f CMakeFiles/writer_node.dir/build.make CMakeFiles/writer_node.dir/depend
+	$(MAKE) -f CMakeFiles/writer_node.dir/build.make CMakeFiles/writer_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg/CMakeFiles --progress-num=5,6 "Built target writer_node"
+.PHONY : CMakeFiles/writer_node.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/writer_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/writer_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg/CMakeFiles 0
+.PHONY : CMakeFiles/writer_node.dir/rule
+
+# Convenience name for target.
+writer_node: CMakeFiles/writer_node.dir/rule
+
+.PHONY : writer_node
+
+# clean rule for target.
+CMakeFiles/writer_node.dir/clean:
+	$(MAKE) -f CMakeFiles/writer_node.dir/build.make CMakeFiles/writer_node.dir/clean
+.PHONY : CMakeFiles/writer_node.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ros2_cpp_node.dir

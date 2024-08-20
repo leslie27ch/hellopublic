@@ -3,6 +3,7 @@
 /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg/CMakeFiles/install.dir
 /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg/CMakeFiles/list_install_components.dir
 /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg/CMakeFiles/rebuild_cache.dir
+/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg/CMakeFiles/writer_node.dir
 /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg/CMakeFiles/ros2_cpp_node.dir
 /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg/CMakeFiles/edit_cache.dir
 /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg/CMakeFiles/test.dir

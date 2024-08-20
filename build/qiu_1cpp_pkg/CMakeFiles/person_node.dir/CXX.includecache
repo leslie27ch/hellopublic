@@ -13,6 +13,8 @@ string
 -
 iostream
 -
+../include/qiu_1cpp_pkg/person.hpp
+/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/include/qiu_1cpp_pkg/person.hpp
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp
 builtin_interfaces/msg/detail/duration__struct.hpp

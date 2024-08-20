@@ -1,0 +1,18 @@
+[0.015s] Invoking command in '/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg -- -j16 -l16
+[0.151s] [ 25%] [32mBuilding CXX object CMakeFiles/person_node.dir/src/person.cpp.o[0m
+[0.151s] [ 75%] Built target ros2_cpp_node
+[0.665s] In file included from [01m[K/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/src/person.cpp:4[m[K:
+[0.665s] [01m[K/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/src/../include/qiu_1cpp_pkg/person.hpp:9:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[0.665s]  [01;31m[K{[m[K
+[0.665s]  [01;31m[K^[m[K
+[0.666s] [01m[K/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/src/person.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.666s] [01m[K/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/src/person.cpp:8:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.666s]  int main([01;35m[Kint argc[m[K,char**argv)
+[0.666s]           [01;35m[K~~~~^~~~[m[K
+[0.666s] [01m[K/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/src/person.cpp:8:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.666s]  int main(int argc,[01;35m[Kchar**argv[m[K)
+[0.666s]                    [01;35m[K~~~~~~^~~~[m[K
+[0.842s] make[2]: *** [CMakeFiles/person_node.dir/build.make:63: CMakeFiles/person_node.dir/src/person.cpp.o] Error 1
+[0.842s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/person_node.dir/all] Error 2
+[0.843s] make: *** [Makefile:141: all] Error 2
+[0.844s] Invoked command in '/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg -- -j16 -l16

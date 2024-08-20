@@ -1,0 +1,41 @@
+[0.016s] Invoking command in '/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_second_node_pkg:/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_firt_node_pkg:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg -- -j16 -l16
+[0.157s] [35m[1mScanning dependencies of target writer_node[0m
+[0.157s] [ 66%] Built target person_node
+[0.158s] [ 66%] Built target ros2_cpp_node
+[0.159s] [ 83%] [32mBuilding CXX object CMakeFiles/writer_node.dir/src/writer.cpp.o[0m
+[0.678s] [01m[K/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/src/writer.cpp:9:16:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kconst[m[K’
+[0.679s]          person([01;31m[Kconst[m[K string& nodename,const string& name,int age):person(name,age),rclcpp::Node(nodename){}
+[0.679s]                 [01;31m[K^~~~~[m[K
+[0.679s] [01m[K/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/src/writer.cpp:9:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kconst[m[K’
+[0.679s]          person[34m[K([m[K[01;31m[Kc[m[K[32m[Konst[m[K string& nodename,const string& name,int age):person(name,age),rclcpp::Node(nodename){}
+[0.679s]                [34m[K~[m[K[01;31m[K^[m[K[32m[K~~~~[m[K
+[0.679s]                 [32m[K)[m[K
+[0.833s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/8/bits/c++allocator.h:33[m[K,
+[0.833s]                  from [01m[K/usr/include/c++/8/bits/allocator.h:46[m[K,
+[0.833s]                  from [01m[K/usr/include/c++/8/memory:63[m[K,
+[0.833s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[0.833s]                  from [01m[K/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/src/writer.cpp:1[m[K:
+[0.834s] /usr/include/c++/8/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = writer; _Args = {const char (&)[20], const char (&)[7], int}; _Tp = writer][m[K’:
+[0.834s] [01m[K/usr/include/c++/8/bits/alloc_traits.h:475:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = writer; _Args = {const char (&)[20], const char (&)[7], int}; _Tp = writer; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<writer>][m[K’
+[0.834s] [01m[K/usr/include/c++/8/bits/shared_ptr_base.h:545:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[20], const char (&)[7], int}; _Tp = writer; _Alloc = std::allocator<writer>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[0.834s] [01m[K/usr/include/c++/8/bits/shared_ptr_base.h:677:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = writer; _Alloc = std::allocator<writer>; _Args = {const char (&)[20], const char (&)[7], int}; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[0.834s] [01m[K/usr/include/c++/8/bits/shared_ptr_base.h:1342:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<writer>; _Args = {const char (&)[20], const char (&)[7], int}; _Tp = writer; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[0.834s] [01m[K/usr/include/c++/8/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<writer>; _Args = {const char (&)[20], const char (&)[7], int}; _Tp = writer][m[K’
+[0.834s] [01m[K/usr/include/c++/8/bits/shared_ptr.h:705:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = writer; _Alloc = std::allocator<writer>; _Args = {const char (&)[20], const char (&)[7], int}][m[K’
+[0.834s] [01m[K/usr/include/c++/8/bits/shared_ptr.h:721:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = writer; _Args = {const char (&)[20], const char (&)[7], int}][m[K’
+[0.834s] [01m[K/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/src/writer.cpp:25:81:[m[K   required from here
+[0.834s] [01m[K/usr/include/c++/8/ext/new_allocator.h:136:4:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kwriter::writer(const char [20], const char [7], int)[m[K’
+[0.834s]   { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[0.834s]     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.834s] [01m[K/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/src/writer.cpp:6:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kwriter::writer()[m[K’ <deleted>
+[0.834s]  class [01;36m[Kwriter[m[K:public person,public rclcpp::Node
+[0.834s]        [01;36m[K^~~~~~[m[K
+[0.834s] [01m[K/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/src/writer.cpp:6:7:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 3 provided
+[0.834s] [01m[K/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/src/writer.cpp:6:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kwriter::writer(const writer&)[m[K’ <deleted>
+[0.834s] [01m[K/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/src/writer.cpp:6:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[0.834s] [01m[K/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/src/writer.cpp:6:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kwriter::writer(writer&&)[m[K’ <deleted>
+[0.834s] [01m[K/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/src/writer.cpp:6:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[0.861s] make[2]: *** [CMakeFiles/writer_node.dir/build.make:63: CMakeFiles/writer_node.dir/src/writer.cpp.o] Error 1
+[0.861s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/writer_node.dir/all] Error 2
+[0.861s] make: *** [Makefile:141: all] Error 2
+[0.864s] Invoked command in '/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_second_node_pkg:/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_firt_node_pkg:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg -- -j16 -l16

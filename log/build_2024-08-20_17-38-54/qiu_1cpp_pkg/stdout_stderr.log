@@ -1,0 +1,26 @@
+[35m[1mScanning dependencies of target writer_node[0m
+[ 66%] Built target person_node
+[ 66%] Built target ros2_cpp_node
+[ 83%] [32mBuilding CXX object CMakeFiles/writer_node.dir/src/writer.cpp.o[0m
+[100%] [32m[1mLinking CXX executable writer_node[0m
+[100%] Built target writer_node
+-- Install configuration: ""
+-- Up-to-date: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/lib/qiu_1cpp_pkg/ros2_cpp_node
+-- Up-to-date: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/lib/qiu_1cpp_pkg/person_node
+-- Installing: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/lib/qiu_1cpp_pkg/writer_node
+-- Set runtime path of "/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/lib/qiu_1cpp_pkg/writer_node" to ""
+-- Up-to-date: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/ament_index/resource_index/package_run_dependencies/qiu_1cpp_pkg
+-- Up-to-date: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/ament_index/resource_index/parent_prefix_path/qiu_1cpp_pkg
+-- Up-to-date: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/environment/path.sh
+-- Up-to-date: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/environment/path.dsv
+-- Up-to-date: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/local_setup.bash
+-- Up-to-date: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/local_setup.sh
+-- Up-to-date: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/local_setup.zsh
+-- Up-to-date: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/local_setup.dsv
+-- Installing: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/package.dsv
+-- Up-to-date: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/ament_index/resource_index/packages/qiu_1cpp_pkg
+-- Up-to-date: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/cmake/qiu_1cpp_pkgConfig.cmake
+-- Up-to-date: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/cmake/qiu_1cpp_pkgConfig-version.cmake
+-- Up-to-date: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/package.xml

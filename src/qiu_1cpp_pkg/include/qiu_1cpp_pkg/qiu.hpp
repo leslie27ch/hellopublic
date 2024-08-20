@@ -1,3 +1,5 @@
+#ifndef QIU_H
+#define QIU_H
 #include<iostream>
 using namespace std;
 class Qiu
@@ -9,3 +11,4 @@ class Qiu
     private:
         int m_age;
 };
+#endif

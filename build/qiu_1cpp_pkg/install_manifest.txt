@@ -1,5 +1,6 @@
 /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/lib/qiu_1cpp_pkg/ros2_cpp_node
 /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/lib/qiu_1cpp_pkg/person_node
+/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/lib/qiu_1cpp_pkg/writer_node
 /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/ament_index/resource_index/package_run_dependencies/qiu_1cpp_pkg
 /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/ament_index/resource_index/parent_prefix_path/qiu_1cpp_pkg
 /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/environment/ament_prefix_path.sh
