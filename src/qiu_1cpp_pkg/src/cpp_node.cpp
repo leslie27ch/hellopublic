@@ -12,6 +12,6 @@ int main(int argc,char **argv)
     qiu.fun();
     rclcpp::spin(node);
     rclcpp::shutdown();
-
+ 
     return 0;
 }
