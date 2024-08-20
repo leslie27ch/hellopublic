@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/qiu/ros2024/chapter2_ws/src/qiu_1cpp_pkg
+CMAKE_SOURCE_DIR = /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg
+CMAKE_BINARY_DIR = /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg
 
 # Utility rule file for uninstall.
 
@@ -67,6 +67,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/qiu/ros2024/chapter2_ws/src/qiu_1cpp_pkg /home/qiu/ros2024/chapter2_ws/src/qiu_1cpp_pkg /home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg /home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg /home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

@@ -2,7 +2,7 @@
 
 # since this file is sourced use either the provided AMENT_CURRENT_PREFIX
 # or fall back to the destination set at configure time
-: ${AMENT_CURRENT_PREFIX:="/home/qiu/ros2024/chapter2_ws/install/qiu_1cpp_pkg"}
+: ${AMENT_CURRENT_PREFIX:="/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg"}
 if [ ! -d "$AMENT_CURRENT_PREFIX" ]; then
   if [ -z "$COLCON_CURRENT_PREFIX" ]; then
     echo "The compile time prefix path '$AMENT_CURRENT_PREFIX' doesn't " \

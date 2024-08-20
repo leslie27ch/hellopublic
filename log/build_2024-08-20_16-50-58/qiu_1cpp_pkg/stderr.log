@@ -1,0 +1,1 @@
+CMake Error: The current CMakeCache.txt directory /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg/CMakeCache.txt is different than the directory /home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt

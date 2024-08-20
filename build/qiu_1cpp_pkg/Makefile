@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/qiu/ros2024/chapter2_ws/src/qiu_1cpp_pkg
+CMAKE_SOURCE_DIR = /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg
+CMAKE_BINARY_DIR = /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg/CMakeFiles /home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg/CMakeFiles /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -179,6 +179,19 @@ ros2_cpp_node: cmake_check_build_system
 ros2_cpp_node/fast:
 	$(MAKE) -f CMakeFiles/ros2_cpp_node.dir/build.make CMakeFiles/ros2_cpp_node.dir/build
 .PHONY : ros2_cpp_node/fast
+
+#=============================================================================
+# Target rules for targets named person_node
+
+# Build rule for target.
+person_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 person_node
+.PHONY : person_node
+
+# fast build rule for target.
+person_node/fast:
+	$(MAKE) -f CMakeFiles/person_node.dir/build.make CMakeFiles/person_node.dir/build
+.PHONY : person_node/fast
 
 #=============================================================================
 # Target rules for targets named qiu_1cpp_pkg_uninstall
@@ -233,6 +246,33 @@ src/cpp_node.cpp.s:
 	$(MAKE) -f CMakeFiles/ros2_cpp_node.dir/build.make CMakeFiles/ros2_cpp_node.dir/src/cpp_node.cpp.s
 .PHONY : src/cpp_node.cpp.s
 
+src/person.o: src/person.cpp.o
+
+.PHONY : src/person.o
+
+# target to build an object file
+src/person.cpp.o:
+	$(MAKE) -f CMakeFiles/person_node.dir/build.make CMakeFiles/person_node.dir/src/person.cpp.o
+.PHONY : src/person.cpp.o
+
+src/person.i: src/person.cpp.i
+
+.PHONY : src/person.i
+
+# target to preprocess a source file
+src/person.cpp.i:
+	$(MAKE) -f CMakeFiles/person_node.dir/build.make CMakeFiles/person_node.dir/src/person.cpp.i
+.PHONY : src/person.cpp.i
+
+src/person.s: src/person.cpp.s
+
+.PHONY : src/person.s
+
+# target to generate assembly for a file
+src/person.cpp.s:
+	$(MAKE) -f CMakeFiles/person_node.dir/build.make CMakeFiles/person_node.dir/src/person.cpp.s
+.PHONY : src/person.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -247,11 +287,15 @@ help:
 	@echo "... ros2_cpp_node"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... person_node"
 	@echo "... qiu_1cpp_pkg_uninstall"
 	@echo "... uninstall"
 	@echo "... src/cpp_node.o"
 	@echo "... src/cpp_node.i"
 	@echo "... src/cpp_node.s"
+	@echo "... src/person.o"
+	@echo "... src/person.i"
+	@echo "... src/person.s"
 .PHONY : help
 
 

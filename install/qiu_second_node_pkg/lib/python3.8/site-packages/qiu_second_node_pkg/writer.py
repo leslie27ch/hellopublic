@@ -3,8 +3,8 @@ import rclpy
 from rclpy.node import Node
 class writer(person,Node):
     def __init__(self,nodename,style,name,age) -> None:
-        person.__init__(self,name,age)
-        Node.__init__(self,nodename)
+        super().__init__(self,name,age)
+        super.__init__(self,nodename)
         self.style = style
     def write(self,bookname,game):
 

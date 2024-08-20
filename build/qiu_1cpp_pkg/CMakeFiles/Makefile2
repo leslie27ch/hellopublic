@@ -44,16 +44,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/qiu/ros2024/chapter2_ws/src/qiu_1cpp_pkg
+CMAKE_SOURCE_DIR = /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg
+CMAKE_BINARY_DIR = /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
 all: CMakeFiles/ros2_cpp_node.dir/all
+all: CMakeFiles/person_node.dir/all
 
 .PHONY : all
 
@@ -64,6 +65,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/ros2_cpp_node.dir/clean
+clean: CMakeFiles/person_node.dir/clean
 clean: CMakeFiles/qiu_1cpp_pkg_uninstall.dir/clean
 clean: CMakeFiles/uninstall.dir/clean
 
@@ -76,14 +78,14 @@ clean: CMakeFiles/uninstall.dir/clean
 CMakeFiles/ros2_cpp_node.dir/all:
 	$(MAKE) -f CMakeFiles/ros2_cpp_node.dir/build.make CMakeFiles/ros2_cpp_node.dir/depend
 	$(MAKE) -f CMakeFiles/ros2_cpp_node.dir/build.make CMakeFiles/ros2_cpp_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg/CMakeFiles --progress-num=1,2 "Built target ros2_cpp_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg/CMakeFiles --progress-num=3,4 "Built target ros2_cpp_node"
 .PHONY : CMakeFiles/ros2_cpp_node.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ros2_cpp_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ros2_cpp_node.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg/CMakeFiles 0
 .PHONY : CMakeFiles/ros2_cpp_node.dir/rule
 
 # Convenience name for target.
@@ -97,20 +99,47 @@ CMakeFiles/ros2_cpp_node.dir/clean:
 .PHONY : CMakeFiles/ros2_cpp_node.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/person_node.dir
+
+# All Build rule for target.
+CMakeFiles/person_node.dir/all:
+	$(MAKE) -f CMakeFiles/person_node.dir/build.make CMakeFiles/person_node.dir/depend
+	$(MAKE) -f CMakeFiles/person_node.dir/build.make CMakeFiles/person_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg/CMakeFiles --progress-num=1,2 "Built target person_node"
+.PHONY : CMakeFiles/person_node.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/person_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/person_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg/CMakeFiles 0
+.PHONY : CMakeFiles/person_node.dir/rule
+
+# Convenience name for target.
+person_node: CMakeFiles/person_node.dir/rule
+
+.PHONY : person_node
+
+# clean rule for target.
+CMakeFiles/person_node.dir/clean:
+	$(MAKE) -f CMakeFiles/person_node.dir/build.make CMakeFiles/person_node.dir/clean
+.PHONY : CMakeFiles/person_node.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/qiu_1cpp_pkg_uninstall.dir
 
 # All Build rule for target.
 CMakeFiles/qiu_1cpp_pkg_uninstall.dir/all:
 	$(MAKE) -f CMakeFiles/qiu_1cpp_pkg_uninstall.dir/build.make CMakeFiles/qiu_1cpp_pkg_uninstall.dir/depend
 	$(MAKE) -f CMakeFiles/qiu_1cpp_pkg_uninstall.dir/build.make CMakeFiles/qiu_1cpp_pkg_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg/CMakeFiles --progress-num= "Built target qiu_1cpp_pkg_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg/CMakeFiles --progress-num= "Built target qiu_1cpp_pkg_uninstall"
 .PHONY : CMakeFiles/qiu_1cpp_pkg_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/qiu_1cpp_pkg_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/qiu_1cpp_pkg_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg/CMakeFiles 0
 .PHONY : CMakeFiles/qiu_1cpp_pkg_uninstall.dir/rule
 
 # Convenience name for target.
@@ -130,14 +159,14 @@ CMakeFiles/qiu_1cpp_pkg_uninstall.dir/clean:
 CMakeFiles/uninstall.dir/all: CMakeFiles/qiu_1cpp_pkg_uninstall.dir/all
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.

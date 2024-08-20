@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/qiu/ros2024/chapter2_ws/src/qiu_1cpp_pkg
+CMAKE_SOURCE_DIR = /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg
+CMAKE_BINARY_DIR = /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg
 
 # Utility rule file for qiu_1cpp_pkg_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg
 include CMakeFiles/qiu_1cpp_pkg_uninstall.dir/progress.make
 
 CMakeFiles/qiu_1cpp_pkg_uninstall:
-	/usr/bin/cmake -P /home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 qiu_1cpp_pkg_uninstall: CMakeFiles/qiu_1cpp_pkg_uninstall
 qiu_1cpp_pkg_uninstall: CMakeFiles/qiu_1cpp_pkg_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/qiu_1cpp_pkg_uninstall.dir/clean:
 .PHONY : CMakeFiles/qiu_1cpp_pkg_uninstall.dir/clean
 
 CMakeFiles/qiu_1cpp_pkg_uninstall.dir/depend:
-	cd /home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/qiu/ros2024/chapter2_ws/src/qiu_1cpp_pkg /home/qiu/ros2024/chapter2_ws/src/qiu_1cpp_pkg /home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg /home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg /home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg/CMakeFiles/qiu_1cpp_pkg_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg/CMakeFiles/qiu_1cpp_pkg_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/qiu_1cpp_pkg_uninstall.dir/depend
 

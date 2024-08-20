@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/qiu/ros2024/chapter2_ws/src/qiu_1cpp_pkg/include/qiu_1cpp_pkg/qiu.hpp
+/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/include/qiu_1cpp_pkg/qiu.hpp
 iostream
 -
 
-/home/qiu/ros2024/chapter2_ws/src/qiu_1cpp_pkg/src/cpp_node.cpp
+/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/src/cpp_node.cpp
 iostream
-/home/qiu/ros2024/chapter2_ws/src/qiu_1cpp_pkg/src/iostream
+/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/src/iostream
 ../include/qiu_1cpp_pkg/qiu.hpp
-/home/qiu/ros2024/chapter2_ws/src/qiu_1cpp_pkg/include/qiu_1cpp_pkg/qiu.hpp
+/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/include/qiu_1cpp_pkg/qiu.hpp
 rclcpp/rclcpp.hpp
-/home/qiu/ros2024/chapter2_ws/src/qiu_1cpp_pkg/src/rclcpp/rclcpp.hpp
+/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/src/rclcpp/rclcpp.hpp
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp
 builtin_interfaces/msg/detail/duration__struct.hpp

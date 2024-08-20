@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target person_node[0m
+[ 50%] Built target ros2_cpp_node
+[ 75%] [32mBuilding CXX object CMakeFiles/person_node.dir/src/person.cpp.o[0m

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/qiu/ros2024/chapter2_ws/src/qiu_1cpp_pkg/src/cpp_node.cpp" "/home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg/CMakeFiles/ros2_cpp_node.dir/src/cpp_node.cpp.o"
+  "/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/src/cpp_node.cpp" "/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg/CMakeFiles/ros2_cpp_node.dir/src/cpp_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

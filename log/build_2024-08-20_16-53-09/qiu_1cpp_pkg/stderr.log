@@ -1,0 +1,11 @@
+[01m[K/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/src/person.cpp:[m[K In member function ‘[01m[Kvoid person::havefun(const string&)[m[K’:
+[01m[K/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/src/person.cpp:10:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgame[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+         void havefun([01;35m[Kconst string& game[m[K)
+                      [01;35m[K~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/src/person.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/src/person.cpp:20:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ int main([01;35m[Kint argc[m[K,char **argv)
+          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/src/person.cpp:20:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ int main(int argc,[01;35m[Kchar **argv[m[K)
+                   [01;35m[K~~~~~~~^~~~[m[K

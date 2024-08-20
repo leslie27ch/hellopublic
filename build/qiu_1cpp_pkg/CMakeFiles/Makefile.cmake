@@ -12,8 +12,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.16.3/CMakeSystem.cmake"
   "ament_cmake_core/package.cmake"
   "ament_cmake_package_templates/templates.cmake"
-  "/home/qiu/ros2024/chapter2_ws/src/qiu_1cpp_pkg/CMakeLists.txt"
-  "/home/qiu/ros2024/chapter2_ws/src/qiu_1cpp_pkg/package.xml"
+  "/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/CMakeLists.txt"
+  "/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/package.xml"
   "/opt/ros/foxy/cmake/yamlConfig.cmake"
   "/opt/ros/foxy/cmake/yamlConfigVersion.cmake"
   "/opt/ros/foxy/cmake/yamlTargets-none.cmake"
@@ -663,6 +663,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ros2_cpp_node.dir/DependInfo.cmake"
+  "CMakeFiles/person_node.dir/DependInfo.cmake"
   "CMakeFiles/qiu_1cpp_pkg_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   )

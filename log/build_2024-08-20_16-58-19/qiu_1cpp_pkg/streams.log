@@ -1,0 +1,35 @@
+[0.015s] Invoking command in '/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_second_node_pkg:/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_firt_node_pkg:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg -- -j16 -l16
+[0.157s] [35m[1mScanning dependencies of target person_node[0m
+[0.157s] [ 50%] Built target ros2_cpp_node
+[0.157s] [ 75%] [32mBuilding CXX object CMakeFiles/person_node.dir/src/person.cpp.o[0m
+[0.683s] [01m[K/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/src/person.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.683s] [01m[K/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/src/person.cpp:20:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.683s]  int main([01;35m[Kint argc[m[K,char**argv)
+[0.683s]           [01;35m[K~~~~^~~~[m[K
+[0.683s] [01m[K/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/src/qiu_1cpp_pkg/src/person.cpp:20:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.683s]  int main(int argc,[01;35m[Kchar**argv[m[K)
+[0.683s]                    [01;35m[K~~~~~~^~~~[m[K
+[0.879s] [100%] [32m[1mLinking CXX executable person_node[0m
+[0.927s] [100%] Built target person_node
+[0.936s] Invoked command in '/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_second_node_pkg:/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_firt_node_pkg:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg -- -j16 -l16
+[0.963s] Invoking command in '/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_second_node_pkg:/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_firt_node_pkg:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg
+[0.968s] -- Install configuration: ""
+[0.968s] -- Up-to-date: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/lib/qiu_1cpp_pkg/ros2_cpp_node
+[0.968s] -- Installing: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/lib/qiu_1cpp_pkg/person_node
+[0.968s] -- Set runtime path of "/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/lib/qiu_1cpp_pkg/person_node" to ""
+[0.968s] -- Up-to-date: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/ament_index/resource_index/package_run_dependencies/qiu_1cpp_pkg
+[0.968s] -- Up-to-date: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/ament_index/resource_index/parent_prefix_path/qiu_1cpp_pkg
+[0.968s] -- Up-to-date: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/environment/ament_prefix_path.sh
+[0.968s] -- Up-to-date: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/environment/ament_prefix_path.dsv
+[0.968s] -- Up-to-date: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/environment/path.sh
+[0.968s] -- Up-to-date: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/environment/path.dsv
+[0.969s] -- Up-to-date: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/local_setup.bash
+[0.969s] -- Up-to-date: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/local_setup.sh
+[0.969s] -- Up-to-date: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/local_setup.zsh
+[0.969s] -- Up-to-date: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/local_setup.dsv
+[0.969s] -- Installing: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/package.dsv
+[0.969s] -- Up-to-date: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/ament_index/resource_index/packages/qiu_1cpp_pkg
+[0.969s] -- Up-to-date: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/cmake/qiu_1cpp_pkgConfig.cmake
+[0.969s] -- Up-to-date: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/cmake/qiu_1cpp_pkgConfig-version.cmake
+[0.969s] -- Up-to-date: /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/package.xml
+[0.970s] Invoked command in '/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_second_node_pkg:/home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/install/qiu_firt_node_pkg:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/qiu/ros2024/kunkun_chapter2_ws/hellopublic/build/qiu_1cpp_pkg
