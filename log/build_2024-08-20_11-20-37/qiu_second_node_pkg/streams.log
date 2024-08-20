@@ -1,0 +1,24 @@
+[0.531s] Invoking command in '/home/qiu/ros2024/chapter2_ws/src/qiu_second_node_pkg': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/qiu/ros2024/chapter2_ws/build/qiu_second_node_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qiu/ros2024/chapter2_ws/install/qiu_second_node_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/qiu_second_node_pkg build --build-base /home/qiu/ros2024/chapter2_ws/build/qiu_second_node_pkg/build install --record /home/qiu/ros2024/chapter2_ws/build/qiu_second_node_pkg/install.log --install-scripts $base/lib/qiu_second_node_pkg --single-version-externally-managed install_data
+[0.654s] running egg_info
+[0.655s] writing ../../build/qiu_second_node_pkg/qiu_second_node_pkg.egg-info/PKG-INFO
+[0.655s] writing dependency_links to ../../build/qiu_second_node_pkg/qiu_second_node_pkg.egg-info/dependency_links.txt
+[0.655s] writing entry points to ../../build/qiu_second_node_pkg/qiu_second_node_pkg.egg-info/entry_points.txt
+[0.655s] writing requirements to ../../build/qiu_second_node_pkg/qiu_second_node_pkg.egg-info/requires.txt
+[0.655s] writing top-level names to ../../build/qiu_second_node_pkg/qiu_second_node_pkg.egg-info/top_level.txt
+[0.675s] reading manifest file '../../build/qiu_second_node_pkg/qiu_second_node_pkg.egg-info/SOURCES.txt'
+[0.676s] writing manifest file '../../build/qiu_second_node_pkg/qiu_second_node_pkg.egg-info/SOURCES.txt'
+[0.676s] running build
+[0.676s] running build_py
+[0.676s] running install
+[0.677s] running install_lib
+[0.677s] byte-compiling /home/qiu/ros2024/chapter2_ws/install/qiu_second_node_pkg/lib/python3.8/site-packages/qiu_second_node_pkg/writer.py to writer.cpython-38.pyc
+[0.678s] running install_data
+[0.678s] running install_egg_info
+[0.679s] removing '/home/qiu/ros2024/chapter2_ws/install/qiu_second_node_pkg/lib/python3.8/site-packages/qiu_second_node_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.679s] Copying ../../build/qiu_second_node_pkg/qiu_second_node_pkg.egg-info to /home/qiu/ros2024/chapter2_ws/install/qiu_second_node_pkg/lib/python3.8/site-packages/qiu_second_node_pkg-0.0.0-py3.8.egg-info
+[0.680s] running install_scripts
+[0.690s] Installing person_node script to /home/qiu/ros2024/chapter2_ws/install/qiu_second_node_pkg/lib/qiu_second_node_pkg
+[0.690s] Installing qiu_seconde_pkg_node script to /home/qiu/ros2024/chapter2_ws/install/qiu_second_node_pkg/lib/qiu_second_node_pkg
+[0.690s] Installing writer_node script to /home/qiu/ros2024/chapter2_ws/install/qiu_second_node_pkg/lib/qiu_second_node_pkg
+[0.690s] writing list of installed files to '/home/qiu/ros2024/chapter2_ws/build/qiu_second_node_pkg/install.log'
+[0.710s] Invoked command in '/home/qiu/ros2024/chapter2_ws/src/qiu_second_node_pkg' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/qiu/ros2024/chapter2_ws/build/qiu_second_node_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qiu/ros2024/chapter2_ws/install/qiu_second_node_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/qiu_second_node_pkg build --build-base /home/qiu/ros2024/chapter2_ws/build/qiu_second_node_pkg/build install --record /home/qiu/ros2024/chapter2_ws/build/qiu_second_node_pkg/install.log --install-scripts $base/lib/qiu_second_node_pkg --single-version-externally-managed install_data

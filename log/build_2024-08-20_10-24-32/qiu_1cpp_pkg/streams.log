@@ -1,0 +1,77 @@
+[0.014s] Invoking command in '/home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/qiu/ros2024/chapter2_ws/src/qiu_1cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/qiu/ros2024/chapter2_ws/install/qiu_1cpp_pkg
+[0.151s] -- The C compiler identification is GNU 8.4.0
+[0.151s] -- The CXX compiler identification is GNU 8.4.0
+[0.151s] -- Check for working C compiler: /usr/bin/cc
+[0.151s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.151s] -- Detecting C compiler ABI info
+[0.161s] -- Detecting C compiler ABI info - done
+[0.167s] -- Detecting C compile features
+[0.168s] -- Detecting C compile features - done
+[0.169s] -- Check for working CXX compiler: /usr/bin/c++
+[0.214s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.215s] -- Detecting CXX compiler ABI info
+[0.260s] -- Detecting CXX compiler ABI info - done
+[0.266s] -- Detecting CXX compile features
+[0.267s] -- Detecting CXX compile features - done
+[0.268s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.283s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.283s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.401s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.426s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.429s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.432s] -- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+[0.911s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.929s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.970s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.000s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.000s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.001s] -- Looking for pthread.h
+[1.046s] -- Looking for pthread.h - found
+[1.046s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.088s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.088s] -- Looking for pthread_create in pthreads
+[1.121s] -- Looking for pthread_create in pthreads - not found
+[1.121s] -- Looking for pthread_create in pthread
+[1.160s] -- Looking for pthread_create in pthread - found
+[1.161s] -- Found Threads: TRUE  
+[1.244s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.283s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.283s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.283s] -- Configured cppcheck include dirs: 
+[1.283s] -- Configured cppcheck exclude dirs and/or files: 
+[1.284s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.284s] -- Configured cpplint exclude dirs and/or files: 
+[1.284s] -- Added test 'lint_cmake' to check CMake code style
+[1.285s] -- Added test 'uncrustify' to check C / C++ code style
+[1.285s] -- Configured uncrustify additional arguments: 
+[1.285s] -- Added test 'xmllint' to check XML markup files
+[1.286s] -- Configuring done
+[1.290s] -- Generating done
+[1.291s] -- Build files have been written to: /home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg
+[1.295s] Invoked command in '/home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/qiu/ros2024/chapter2_ws/src/qiu_1cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/qiu/ros2024/chapter2_ws/install/qiu_1cpp_pkg
+[1.296s] Invoking command in '/home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg -- -j16 -l16
+[1.320s] [35m[1mScanning dependencies of target ros2_cpp_node[0m
+[1.340s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_cpp_node.dir/src/cpp_node.cpp.o[0m
+[2.097s] [100%] [32m[1mLinking CXX executable ros2_cpp_node[0m
+[2.156s] [100%] Built target ros2_cpp_node
+[2.162s] Invoked command in '/home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg -- -j16 -l16
+[2.184s] Invoking command in '/home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg
+[2.188s] -- Install configuration: ""
+[2.188s] -- Installing: /home/qiu/ros2024/chapter2_ws/install/qiu_1cpp_pkg/lib/qiu_1cpp_pkg/ros2_cpp_node
+[2.189s] -- Set runtime path of "/home/qiu/ros2024/chapter2_ws/install/qiu_1cpp_pkg/lib/qiu_1cpp_pkg/ros2_cpp_node" to ""
+[2.189s] -- Installing: /home/qiu/ros2024/chapter2_ws/install/qiu_1cpp_pkg/share/ament_index/resource_index/package_run_dependencies/qiu_1cpp_pkg
+[2.189s] -- Installing: /home/qiu/ros2024/chapter2_ws/install/qiu_1cpp_pkg/share/ament_index/resource_index/parent_prefix_path/qiu_1cpp_pkg
+[2.189s] -- Installing: /home/qiu/ros2024/chapter2_ws/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/environment/ament_prefix_path.sh
+[2.189s] -- Installing: /home/qiu/ros2024/chapter2_ws/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/environment/ament_prefix_path.dsv
+[2.189s] -- Installing: /home/qiu/ros2024/chapter2_ws/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/environment/path.sh
+[2.189s] -- Installing: /home/qiu/ros2024/chapter2_ws/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/environment/path.dsv
+[2.189s] -- Installing: /home/qiu/ros2024/chapter2_ws/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/local_setup.bash
+[2.189s] -- Installing: /home/qiu/ros2024/chapter2_ws/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/local_setup.sh
+[2.189s] -- Installing: /home/qiu/ros2024/chapter2_ws/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/local_setup.zsh
+[2.189s] -- Installing: /home/qiu/ros2024/chapter2_ws/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/local_setup.dsv
+[2.189s] -- Installing: /home/qiu/ros2024/chapter2_ws/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/package.dsv
+[2.190s] -- Installing: /home/qiu/ros2024/chapter2_ws/install/qiu_1cpp_pkg/share/ament_index/resource_index/packages/qiu_1cpp_pkg
+[2.190s] -- Installing: /home/qiu/ros2024/chapter2_ws/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/cmake/qiu_1cpp_pkgConfig.cmake
+[2.190s] -- Installing: /home/qiu/ros2024/chapter2_ws/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/cmake/qiu_1cpp_pkgConfig-version.cmake
+[2.190s] -- Installing: /home/qiu/ros2024/chapter2_ws/install/qiu_1cpp_pkg/share/qiu_1cpp_pkg/package.xml
+[2.191s] Invoked command in '/home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/qiu/ros2024/chapter2_ws/build/qiu_1cpp_pkg

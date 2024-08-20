@@ -1,0 +1,3 @@
+[console_scripts]
+node_exe = qiu_firt_node_pkg.node:main
+
