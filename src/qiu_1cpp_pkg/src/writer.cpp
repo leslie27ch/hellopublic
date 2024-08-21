@@ -12,7 +12,7 @@ class writer:public person,public rclcpp::Node
         {
             havefun(game);
           
-            RCLCPP_INFO(this->get_logger(),"我写了一本书: %s ,我喜欢玩：%s\n",book.c_str(),game.c_str());
+            RCLCPP_INFO(this->get_logger(),"lalalala我写了一本书: %s ,我喜欢玩：%s\n",book.c_str(),game.c_str());
 
         }
 };
